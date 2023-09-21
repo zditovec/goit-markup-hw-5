@@ -546,28 +546,27 @@ address {
 }
 
 .input-information {
-    background-color: #2E2F42;
+  color: #fff;
+    background-color: transparent;
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid var(--WHITE, #fff);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #fff;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   margin-right: 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
 }
-.input-inform::placeholder{
-    color: #fff;
-        font-family: Roboto;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.48px;
+.input-inform::placeholder {
+  color: #ffffff;
 }
 .button-telegram {
 display: flex;
 justify-content:center;
 align-items: center;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -585,6 +584,6 @@ align-items: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .modal-button-icon{ 
-    
+     margin-left: 16px;
     fill: #FFFFFF;
 }
