@@ -538,7 +538,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  
+}
+.subscribe-telegram-info{
+  display: flex;
+
 }
 
 .input-inform {
@@ -561,6 +564,8 @@ address {
 }
 .button-telegram {
 display: flex;
+justify-content:center;
+align-items: center;
   width: 165px;
   height: 40px;
   color: #ffffff;
