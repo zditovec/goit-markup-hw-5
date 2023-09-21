@@ -528,10 +528,9 @@ address {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.Subscribe-telegram {
-  display: flex;
-}
+
 .subcscribe {
+    display: flex;
   color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
