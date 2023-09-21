@@ -530,7 +530,6 @@ address {
 }
 
 .subcscribe {
-    display: flex;
   color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
@@ -561,7 +560,7 @@ address {
         letter-spacing: 0.48px;
 }
 .button-telegram {
-
+display: flex;
   width: 165px;
   height: 40px;
   color: #ffffff;
