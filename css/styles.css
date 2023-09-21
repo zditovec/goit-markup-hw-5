@@ -539,12 +539,13 @@ address {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.subscribe-telegram-info{
+.telegram-footer{
   display: flex;
+  gap: 24px;
 
 }
 
-.input-inform {
+.input-information {
     background-color: #2E2F42;
   width: 264px;
   height: 40px;
