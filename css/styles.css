@@ -744,6 +744,10 @@ margin-bottom: 16px;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.checkbox-form{
+  margin-bottom: 24px;
+
+}
 .textarea-modal:focus{
   border-color: #4d5ae5;
 }
