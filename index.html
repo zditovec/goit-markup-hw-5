@@ -542,7 +542,7 @@ UI Designer"
             <textarea
               class="textarea-modal"
               id="user-comment"
-              name="Coment"
+              name="user-coment"
               placeholder="Text input"
               cols="30"
               rows="10"
@@ -550,11 +550,13 @@ UI Designer"
           </div>
           <div class="checkbox-form">
             <input
-              class="checkbox-policy"
+              class="checkbox-policy visually-hidden"
+              id="user-privacy"
               type="checkbox"
-              name="Privacy Policy"
+              name="user-privacy"
+              value="true"
             />
-            <label class="label-policy">
+            <label class="label-policy" for="user-privacy">
               <span class="accert-terms">
                 I accept the terms and conditions of the</span
               >
