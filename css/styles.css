@@ -726,7 +726,7 @@ position: absolute;
 .modal-input:focus{
   border-color: #4D5AE5;
 }
-.modal-field-textarea{
+.modal-field{
 margin-bottom: 16px;
 }
 .textarea-modal{
