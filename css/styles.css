@@ -651,14 +651,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .icon-close{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-modal{
-  margin: 8px;
-
-}
-
-
-
-
 
 .leave-contacts{
 
@@ -671,8 +663,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   line-height: 24px;
   letter-spacing: 0.32px;
   margin-bottom: 16px;
-}
-.modal-field{
 }
 .modal-label{
   display: block;
@@ -691,9 +681,28 @@ width: 100%;
 border-radius: 4px;
 border: 1px solid rgba(46, 47, 66, 0.40);
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
+.checkbox-policy{
+width: 16px;
+height: 16px;
+}
+.accert-terms{
+  font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+}
+.privacy-policy{
+  font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
 
 
 /* end modal */
