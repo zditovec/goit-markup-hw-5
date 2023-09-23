@@ -656,7 +656,6 @@ position: absolute;
 }
 
 .leave-contacts {
-
   text-align: center;
     color: #2e2f42;
     font-family: Roboto;
@@ -675,6 +674,9 @@ position: absolute;
     padding-left: 38px;
     outline: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-form .modal-label {
+  margin-top: 8px;
 }
 
 .modal-label {
@@ -703,9 +705,7 @@ position: absolute;
 .input-wrap .input-human:focus{
   fill: #4D5AE5;
 }
-.contact-form .modal-label{
-  margin-top:8px;
-}
+
 
 
 .modal-input {
