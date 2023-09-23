@@ -514,7 +514,7 @@ UI Designer"
                 type="text"
                 name="user-name"
               />
-              <svg class="input-icon-svg" width="18" height="18">
+              <svg class="input-icon-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-human"></use>
               </svg>
             </div>
@@ -529,25 +529,28 @@ UI Designer"
             </div>
           </div>
           <div class="input-wrap">
-            <label class="modal-label" for="email">Emeil</label>
+            <label class="modal-label" for="Email">Email</label>
             <div class="input-icon">
-              <input class="modal-input" id="email" type="email" name="email" />
+              <input class="modal-input" id="Email" type="Email" name="Email" />
               <svg class="input-icon-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field">
-            <label class="modal-label"
-              >Comment
-              <textarea
-                class="textarea-modal"
-                name="Coment"
-                placeholder="Text input"
-                cols="30"
-                rows="10"
-              ></textarea>
-            </label>
+            <div class="modal-field-textarea">
+              <label class="modal-label" for="user-comment"
+                >Comment
+                <textarea
+                  class="textarea-modal"
+                  id="user-comment"
+                  name="Coment"
+                  placeholder="Text input"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </label>
+            </div>
             <div class="checkbox-form">
               <input
                 class="checkbox-policy"
