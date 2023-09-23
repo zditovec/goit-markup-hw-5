@@ -703,9 +703,8 @@ position: absolute;
 .input-wrap .input-human:focus{
   fill: #4D5AE5;
 }
-.contact-form .modal-label:not(:first-child){
-  margin-top: 8px;
-
+.contact-form .modal-label{
+  margin-top:8px;
 }
 
 
