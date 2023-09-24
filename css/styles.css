@@ -555,8 +555,6 @@ address {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
-  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  margin-right: 16px;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -672,8 +670,6 @@ position: absolute;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
-    outline: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-label {
   display: block;
@@ -705,7 +701,7 @@ position: absolute;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
 }
-.input-icon .input-wrap-svg:focus{
+.modal-input .input-wrap-svg:focus{
   fill: #4D5AE5;
 }
 .modal-input {
@@ -721,6 +717,12 @@ position: absolute;
 }
 .modal-input:focus{
   border-color: #4D5AE5;
+}
+.input-icon-svg{
+  fill: #2E2F42;
+}
+.input-icon-svg:focus{
+  fill: #4D5AE5;
 }
 .modal-field-textarea{
 margin-bottom: 16px;
@@ -766,21 +768,14 @@ margin-bottom: 16px;
       fill: transparent;
 }
 .checkbox-item{
-display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.checkbox-policy:checked + .label-policy .accert-terms{
-background-color:#404bbf;
-border: none;
-fill:#F4F4FD;
-}
-   
-    
-.checkbox-policy:checked + .accert-terms{
-  background-color:#404bbf;
+.checkbox-policy:checked +.label-policy .accert-terms {
+  background-color: #404bbf;
   border: none;
-  fill:#f4f4fd
+  fill: #F4F4FD;
 }
 
 .privacy-policy {
@@ -810,6 +805,4 @@ fill:#F4F4FD;
   
 
 }
-
-
 /* end modal */
