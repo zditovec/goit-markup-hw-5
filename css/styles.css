@@ -774,6 +774,11 @@ display: flex;
   align-items: center;
   justify-content: center;
 }
+.checkbox-policy:checked + .label-policy .accert-terms{
+background-color:#404bbf;
+border: none;
+fill:#F4F4FD;
+}
    
     
 .checkbox-policy:checked + .accert-terms{
