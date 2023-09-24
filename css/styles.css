@@ -759,16 +759,23 @@ margin-bottom: 16px;
 }
 
 .accert-terms {
-  display: inline-flex;
+    width: 16px;
+      height: 16px;
+      border: 1px solid #2E2F4266;
+      border-radius: 2px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      fill: transparent;
+}
+.checkbox-item{
+display: flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: transparent;
 }
+   
+    
 .checkbox-policy:checked + .accert-terms{
   background-color:#404bbf;
   border: none;
@@ -787,7 +794,7 @@ margin-bottom: 16px;
 .button-form-end{
   display: block;
   background-color: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   border-radius: 4px;
   min-width: 169px;
