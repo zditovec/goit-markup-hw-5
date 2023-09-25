@@ -589,6 +589,17 @@ align-items: center;
      margin-left: 16px;
     fill: #FFFFFF;
 }
+.button-telegram:hover {
+  background-color: #404bbf;
+  border: none;
+  fill: #FFFFFF;
+}
+.button-telegram:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: ffffff;
+}
+
 
 /* modal */
 .backdrop {
