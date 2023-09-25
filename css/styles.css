@@ -599,9 +599,9 @@ align-items: center;
     height: 100%;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(46, 47, 66, 0.4);
-    opacity: 1;
+    /* opacity: 1;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
 }
 
 .modal {
