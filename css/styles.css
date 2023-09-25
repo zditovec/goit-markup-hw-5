@@ -699,9 +699,9 @@ position: absolute;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
 }
-.modal-input .input-icon-svg:focus {
-  fill: #4D5AE5;
-}
+ .modal-input:focus+.input-icon-svg {
+   fill: #4D5AE5;
+ }
 .modal-input {
   display: block;
   width: 100%;
