@@ -610,9 +610,9 @@ align-items: center;
     height: 100%;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(46, 47, 66, 0.4);
-    /* opacity: 1;
+    opacity: 1;
       visibility: hidden;
-      pointer-events: none; */
+      pointer-events: none;
 }
 
 .modal {
@@ -691,6 +691,7 @@ position: absolute;
 }
 .contact-form .input-icon .input-icon-svg {
   position: absolute;
+  fill: #2E2F42;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
@@ -714,6 +715,7 @@ position: absolute;
 .modal-input:focus {
   border-color: #4D5AE5;
 }
+
 
 .input-icon-svg:focus {
   fill: #4D5AE5;
@@ -799,6 +801,9 @@ margin-bottom: 16px;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .button-form-end:hover {
   background-color: #404bbf;
